@@ -1089,10 +1089,6 @@
                     "url": "rtmp://ingest.wpstream.net/golive"
                 },
                 {
-                    "name": "North America",
-                    "url": "rtmp://ingest-na.wpstream.net/golive"
-                },
-                {
                     "name": "Europe",
                     "url": "rtmp://ingest-eu.wpstream.net/golive"
                 },

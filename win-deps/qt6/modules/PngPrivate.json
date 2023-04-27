@@ -1,0 +1,11 @@
+{
+    "module_name": "PngPrivate",
+    "version": "6.3.1",
+    "built_with": {
+        "compiler_id": "MSVC",
+        "compiler_target": "",
+        "compiler_version": "19.34.31937.0",
+        "cross_compiled": false,
+        "target_system": "Windows"
+    }
+}

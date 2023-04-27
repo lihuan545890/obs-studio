@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = D:/a/obs-deps/obs-deps/windows_build_temp/qt6_build/6.3.1/x64/qtbase/src/platformsupport/devicediscovery
+QMAKE_PRL_TARGET = Qt6DeviceDiscoverySupportd.lib
+QMAKE_PRL_CONFIG = static
+QMAKE_PRL_VERSION = 6.3.1
+QMAKE_PRL_LIBS = $$[QT_INSTALL_LIBS]/Qt6Cored.lib -lmpr -luserenv
+QMAKE_PRL_LIBS_FOR_CMAKE = $$[QT_INSTALL_LIBS]/Qt6Cored.lib;-lmpr;-luserenv

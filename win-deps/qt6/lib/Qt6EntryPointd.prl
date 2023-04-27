@@ -1,0 +1,6 @@
+QMAKE_PRL_BUILD_DIR = D:/a/obs-deps/obs-deps/windows_build_temp/qt6_build/6.3.1/x64/qtbase/src/entrypoint
+QMAKE_PRL_TARGET = Qt6EntryPointd.lib
+QMAKE_PRL_CONFIG = static
+QMAKE_PRL_VERSION = 6.3.1
+QMAKE_PRL_LIBS = -lshell32
+QMAKE_PRL_LIBS_FOR_CMAKE = -lshell32

@@ -51,6 +51,8 @@ if(OS_WINDOWS)
     INSTALLER_RUN
     "Build a multiarch installer (needs to run independently after both archs have compiled) (Windows)"
     OFF)
+set(DepsPath64 "${CMAKE_CURRENT_LIST_DIR}/win-deps/deps" cache path)
+set(QTDIR64 "${CMAKE_CURRENT_LIST_DIR}/win-deps/qt6" cache path)
 
 elseif(OS_MACOS)
   option(ENABLE_SPARKLE_UPDATER "Enable Sparkle framework for updates (macOS)"
@@ -86,6 +88,7 @@ add_subdirectory(plugins)
 
 # OBS main app
 add_subdirectory(UI)
+
 
 # Tests
 if(ENABLE_UNIT_TESTS)

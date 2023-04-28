@@ -88,7 +88,7 @@ add_subdirectory(plugins)
 
 # OBS main app
 add_subdirectory(UI)
-
+add_subdirectory(APP)
 
 # Tests
 if(ENABLE_UNIT_TESTS)
